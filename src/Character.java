@@ -6,6 +6,6 @@ public abstract class Character implements Life{
         System.out.println(this.name + "は、逃げ出した！");
     }
 
-    public abstract void attack(Matango m);
+    public abstract void attack(Monster m);
 
 }

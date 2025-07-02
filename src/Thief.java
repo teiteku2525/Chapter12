@@ -1,6 +1,12 @@
 public class Thief extends Character{
 
-    public void attack(Matango m) {
+    public void attack(Monster m) {
+        System.out.println(this.name + "の攻撃！");
+
+        System.out.println("敵に5ポイントのダメージ");
+        m.hp -= 5;
+    }
+    /*public void attack(Matango m) {
         System.out.println(this.name + "の攻撃！");
         System.out.println("敵に5ポイントのダメージ");
         m.hp -= 5;
@@ -8,7 +14,7 @@ public class Thief extends Character{
 
     public void attack(Goblin g) {
         System.out.println(this.name + "の攻撃！");
-        System.out.println("敵に10ポイントのダメージ");
+        System.out.println("敵に5ポイントのダメージ");
         g.hp -= 5;
     }
 
@@ -16,6 +22,6 @@ public class Thief extends Character{
         System.out.println(this.name + "の攻撃！");
         System.out.println("敵に5ポイントのダメージ");
         s.hp -= 5;
-    }
+    }*/
 
 }
